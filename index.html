@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="LOGO.png" class="logo" />
+          <ul>
+            <li><a href="#about_tab">About Me</a></li>
+            <li><a href="#services_tab">My Services</a></li>
+            <li><a href="#contact_tab">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>UI/UX Designer</p>
+          <h1>
+            Hi, I'm <span>Daisylyn</span><br />
+            Espiritu from BS 
+            Information Technology
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!--------about--------->
+    <section id="about_tab">
+      <div id="About">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="daisy.jpg" />
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>
+                Hi, I’m Daisylyn Espiritu from Bagacay, Buenavista, Marinduque.
+                I’m currently studying Information Technology at Marinduque
+                State University, specializing in Software Development. With a
+                background in graphic design and web development, I've always
+                been passionate about combining creativity with technology.
+                However, the shift towards software development has presented
+                its own set of challenges. One of the biggest obstacles I’ve
+                faced is adapting from a design-focused mindset to one that is
+                more logical and code-based. In graphic design and web
+                development, I’ve been used to focusing on aesthetics and user
+                experience, but software development requires a different
+                approach—focusing on problem-solving, algorithms, and coding.
+                The learning curve has definitely been steep but also very
+                rewarding. Another challenge has been balancing the visual
+                appeal with the technical functionality in software projects.
+                While web development allows me to create visually engaging
+                interfaces, software development demands that the code behind
+                these designs is efficient and scalable. Debugging and
+                optimizing code has proven to be a whole new skill set that
+                requires a lot of patience and precision. Despite these
+                challenges, I’m committed to expanding my expertise in the IT
+                field. I aim to combine my design skills with my growing
+                software development knowledge, striving to create solutions
+                that are both functional and visually appealing. I look forward
+                to continuing my development as a versatile developer who can
+                bring both creativity and technology together.
+              </p>
+
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">
+                  Skills
+                </p>
+                <p class="tab-links" onclick="opentab('Education')">
+                  Education
+                </p>
+              </div>
+              <div class="tab-content active-tab" id="skills">
+                <ul>
+                  <li>
+                    <span>UI/UX</span><br />
+                    Skilled in designing intuitive user interfaces and enhancing
+                    user experiences through wireframing, prototyping, and
+                    testing, ensuring websites are both visually engaging and
+                    easy to navigate.
+                  </li>
+                  <li>
+                    <span>Web Development</span><br />Proficient in HTML, CSS,
+                    JavaScript, and responsive design, ensuring websites are
+                    both functional and accessible across all devices.
+                  </li>
+                  <li>
+                    <span>Graphic Design</span><br />Expertise in creating
+                    visually appealing designs using tools like Adobe Photoshop,
+                    Illustrator, and InDesign, with a strong understanding of
+                    color theory, typography, and layout principles.
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-content" id="Education">
+                <ul>
+                    <li>
+                        <span>Bagacay National High School</span><br />(SY.2016-2020)
+                      </li>
+                  <li>
+                    <span>Marinduque Midwest College</span><br />Humanities and Social Sciences(SY.2020-2022)
+                  </li>
+                  <li>
+                    <span>Marinduque State University</span><br /> Bachelor of Science in Information Technology(Present)
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <!----------services------------->
+    <section id="services_tab">
+      <div id="services">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>Web Design</h2>
+              <p>
+                I create custom, responsive websites that are visually appealing and optimized for user engagement, ensuring seamless navigation and a strong online presence.
+              </p>
+            </div>
+            <div>
+              <i class="fa-solid fa-crop"></i>
+              <h2>UI/UX Design</h2>
+              <p>
+                I design intuitive user interfaces and engaging user experiences by conducting thorough research, creating wireframes, and testing prototypes to ensure a smooth, user-centered journey.
+              </p>
+            </div>
+            <div>
+              <i class="fa-brands fa-app-store"></i>
+              <h2>App Design</h2>
+              <p>
+                I craft visually stunning and highly functional mobile app designs, focusing on intuitive navigation and performance to deliver an exceptional experience on both iOS and Android platforms.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------Contact---------->
+    <section id="contact_tab">
+      <div id="Contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="subtitle">Contact Me</h1>
+              <p>
+                <i class="fa-thin fa-paper-plane-top"></i>daisylynmonsanto@gmail.com
+              </p>
+              <p><i class="fa-solid fa-phone"></i>0966734092</p>
+              <div class="social icons">
+                <a href="https://facebook.com"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+                <a href=""><i class="fab fa-twitter-square"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+              </div>
+              <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
